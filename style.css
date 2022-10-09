@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+main{
+    background-color: #eafaf1;
+}
+main header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 8em;
+}
+header nav ul{
+    display: flex;
+    list-style-type: none;
+}
+header ul li{
+    padding-inline: 30px;
+}
+header ul li a{
+    text-decoration: none;
+}
+/* SECTION QUOTE */
+.quote{
+    text-align: center;
+    width: 100%;
+}
+.quote h2{
+    font-size: 3rem;
+    text-align: center;
+    width: 9em;
+    display: inline-block;
+}

@@ -44,6 +44,39 @@ header ul li a{
     text-align: center;
 }
 /* Article Cards */
-/* article .cards-container{
-
-} */
+article .cards-container{
+    display: flex;
+    justify-content: center;
+}
+.cards-container .card{
+    /* outline: #35ca17 solid 2px; */
+    width: 25.4em;
+}
+.card-two .banner{
+    background-color: #00ad6a;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    padding: 5.5px;
+    margin-bottom: 2.5em;
+}
+.card-two{
+    border: #00ad6a 2px solid;
+    height: 600px; 
+    border-radius: 8px 8px 0 0;
+}
+.card-two .perk-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5em;
+}
+.perk-title h2{
+    width: 5em;
+    text-align: center;
+    font-size: 35px;
+}
+.card-two .content{
+    display: flex;
+    flex-direction: column;
+}

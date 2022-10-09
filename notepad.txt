@@ -1,1 +1,10 @@
 <i class="fa-solid fa-check"></i>
+
+colors
+>   dark green: #00ad6a;
+>   bright green: #1fe374;
+>   gray: #d6dae5;
+>   light gray: #eafaf1;
+>   blackish: #080c16;
+>   whitish: #fcfcfc;
+

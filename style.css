@@ -25,12 +25,21 @@ header ul li a{
 }
 /* SECTION QUOTE */
 .quote{
-    text-align: center;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quote > *{
+    margin: 10px 0;
 }
 .quote h2{
     font-size: 3rem;
     text-align: center;
     width: 9em;
-    display: inline-block;
+}
+.quote p{
+    width: 34em;
+    line-height: 2em;
+    text-align: center;
 }

@@ -1,4 +1,4 @@
-:root{
+:root {
     --dark-green: #00ad6a;
     --bright-green: #1fe374;
     --gray: #d6dae5;
@@ -6,100 +6,120 @@
     --blackish: #080c16;
     --whitish: #fcfcfc;
 }
-*{
-    margin:0;
-    padding:0;
+
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
-main{
+
+main {
     background-color: #eafaf1;
-    height: 82em; 
+    height: 82em;
 }
-main header{
+
+main header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 8em;
 }
-header nav ul{
+
+header nav ul {
     display: flex;
     list-style-type: none;
 }
-header ul li{
+
+header ul li {
     padding-inline: 30px;
 }
-header ul li a{
+
+header ul li a {
     text-decoration: none;
     color: var(--dark-green);
     font-weight: bold;
 }
-header ul li a:hover{
+
+header ul li a:hover {
     color: #000;
 }
-header ul > li:nth-child(3) a{
+
+header ul>li:nth-child(3) a {
     color: #000;
 }
-header ul > li:nth-last-child(1) a{
+
+header ul>li:nth-last-child(1) a {
     padding: 10px;
     border: 2px #00ad6a solid;
 }
-header ul > li:nth-last-child(1) a:hover{
+
+header ul>li:nth-last-child(1) a:hover {
     color: #00ad6a;
     box-shadow: -5px 5px #00ad6a;
 }
+
 /* SECTION QUOTE */
-.quote{
+.quote {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-bottom: 4em;
 }
-.quote > *{
+
+.quote>* {
     margin: 10px 0;
 }
-.quote h2{
+
+.quote h2 {
     font-size: 3rem;
     text-align: center;
     width: 9em;
 }
-.quote p{
+
+.quote p {
     width: 34em;
     line-height: 2em;
     text-align: center;
 }
+
 /* Article Cards */
-article .cards-container{
+article .cards-container {
     display: flex;
     justify-content: center;
     height: fit-content;
 }
-.cards-container .card{
+
+.cards-container .card {
     /* outline: #35ca17 solid 2px; */
     width: 25.4em;
 }
+
 /* card 1 */
-.card-one{
+.card-one {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.card-one .container{
+
+.card-one .container {
     display: flex;
     flex-direction: column;
     width: 17em;
 }
-.container > *{
+
+.container>* {
     padding: 10px 0;
 }
-.card-one .container ul li{
+
+.card-one .container ul li {
     padding: 5px 0;
     margin-left: 15px;
 }
 
 /* card 2 */
-.card-two .banner{
+.card-two .banner {
     background-color: #00ad6a;
     text-align: center;
     color: #fff;
@@ -107,36 +127,43 @@ article .cards-container{
     padding: 5.5px;
     margin-bottom: 1em;
 }
-.card-two{
+
+.card-two {
     border: #00ad6a 2px solid;
-    height: 38.5em; 
+    height: 38.5em;
     border-radius: 8px 8px 0 0;
     background-color: var(--whitish);
 }
-.card-two .perk-title{
+
+.card-two .perk-title {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 1em;
 }
-.perk-title > *{
+
+.perk-title>* {
     margin: 5px 0;
 }
-.perk-title h2{
+
+.perk-title h2 {
     width: 5em;
     text-align: center;
     font-size: 3em;
     color: var(--dark-green);
 }
-.perk-title p{
+
+.perk-title p {
     color: gray;
     font-size: 20px;
 }
-.card-two .content{
+
+.card-two .content {
     display: flex;
     flex-direction: column;
 }
-.perk-title a{
+
+.perk-title a {
     text-decoration: none;
     color: var(--blackish);
     font-weight: bold;
@@ -145,42 +172,51 @@ article .cards-container{
     border-radius: 10px;
     transition: padding 0.1s;
 }
-.perk-title a:hover{
+
+.perk-title a:hover {
     padding: 20px 35px;
     border-radius: 50px;
 }
-.perk-wrapper{
+
+.perk-wrapper {
     display: flex;
     flex-direction: column;
     padding: 0 20px;
     align-items: center;
 }
-.perk-wrapper #benefit{
+
+.perk-wrapper #benefit {
     font-size: 12px;
     margin-bottom: 5px;
 }
-.perks{
+
+.perks {
     width: 20em;
 }
-.perk-wrapper .perks ul{
+
+.perk-wrapper .perks ul {
     list-style-type: none;
     width: 18em;
 }
-.perk-wrapper .perks ul li{ 
+
+.perk-wrapper .perks ul li {
     padding: 10px 0;
     margin-left: -30px;
     text-align: justify;
     display: flex;
     gap: 10px;
 }
-.perks ul li p{
+
+.perks ul li p {
     opacity: .7;
 }
-.fa-check{
+
+.fa-check {
     color: var(--bright-green);
 }
+
 /* card 3 */
-.card-three{
+.card-three {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -189,30 +225,36 @@ article .cards-container{
     background-color: #fff;
     margin-top: 5em;
 }
-.card-three .desc{
+
+.card-three .desc {
     background-color: var(--gray);
     border: 1px solid #bababe;
     padding: 20px;
 }
-.desc p{
+
+.desc p {
     font-size: 15px;
     text-align: center;
 }
-.card-three .wrapper{
+
+.card-three .wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 2em 0;
 }
-.wrapper h3{
+
+.wrapper h3 {
     font-size: 2em;
     font-weight: lighter;
     color: var(--dark-green);
 }
-.wrapper > :nth-child(2){
+
+.wrapper> :nth-child(2) {
     color: gray;
     font-size: 20px;
 }
+
 .wrapper a {
     text-decoration: none;
     color: var(--blackish);
@@ -223,20 +265,24 @@ article .cards-container{
     transition: padding 0.1s;
     margin-top: 10px;
 }
-.wrapper .perk-list{
+
+.wrapper .perk-list {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 22.7em;
     margin-top: 2em;
 }
-.perk-list p{
+
+.perk-list p {
     font-size: 12px;
     margin-bottom: 10px;
 }
-.perk-list ul{
+
+.perk-list ul {
     list-style-type: none;
 }
+
 .perk-list ul li {
     padding: 10px 0;
     /* margin-left: -30px; */
@@ -244,51 +290,98 @@ article .cards-container{
     display: flex;
     gap: 10px;
 }
+
 /* testimo */
-article{
+article {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-article .testimo{
+
+article .testimo {
     margin-top: 5em;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.testimo q{
+
+.testimo q {
     font-size: 1.5rem;
     width: 34em;
     text-align: center;
 }
-.testimo p{
+
+.testimo p {
     color: #1fe374;
     padding-top: 10px;
     font-weight: bold;
 }
 
 /* ASIDE FAQ */
-.faq-container{
+.faq-container {
     display: flex;
     flex-direction: column;
     padding: 5em;
     gap: 1.5em;
 }
-.faq-container h1{
+
+.faq-container h1 {
     font-size: 3rem;
 }
-.questions{
-    outline: green 2px solid;
+
+.questions {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2em;
 }
-.questions .quest > *{
+
+.questions .quest>* {
     padding: 5px 0;
 }
-.quest > *{
+
+.quest>* {
     font-size: 1.3em;
 }
-.quest p{
+
+.quest p {
     opacity: 0.7;
+}
+
+/* footer */
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 5em;
+    background-color: var(--blackish);
+}
+
+.footer-wrapper .brand {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.footer-links {
+    width: 40em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer-links ul {
+    list-style-type: none;
+}
+
+.footer-links ul li {
+    padding: 15px 0;
+}
+
+.footer-links ul a {
+    text-decoration: none;
+    color: var(--bright-green);
+    font-weight: bold;
+}
+
+.footer-links ul > :nth-child(1) a{
+    color: var(--whitish);
+    font-weight: bold;
 }

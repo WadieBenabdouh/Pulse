@@ -1,2 +1,4 @@
-TODO Work on card 1 and 2.
+TODO Work on card 1 and 2 [DONE]
+TODO Start CSS Grid []
+
 

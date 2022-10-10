@@ -55,13 +55,29 @@ header ul li a{
 article .cards-container{
     display: flex;
     justify-content: center;
+    height: fit-content;
 }
 .cards-container .card{
     /* outline: #35ca17 solid 2px; */
     width: 25.4em;
 }
 /* card 1 */
-
+.card-one{
+    display: flex;
+    justify-content: center;
+}
+.card-one .container{
+    display: flex;
+    flex-direction: column;
+    width: 17em;
+}
+.container > *{
+    padding: 10px 0;
+}
+.card-one .container ul li{
+    padding: 5px 0;
+    margin-left: 15px;
+}
 /* card 3 */
 
 /* card 2 */
@@ -75,7 +91,7 @@ article .cards-container{
 }
 .card-two{
     border: #00ad6a 2px solid;
-    height: fit-content; 
+    height: 38.5em; 
     border-radius: 8px 8px 0 0;
     background-color: var(--whitish);
 }
@@ -83,15 +99,15 @@ article .cards-container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 .perk-title > *{
-    margin: 10px 0;
+    margin: 5px 0;
 }
 .perk-title h2{
     width: 5em;
     text-align: center;
-    font-size: 35px;
+    font-size: 3em;
     color: var(--dark-green);
 }
 .perk-title p{

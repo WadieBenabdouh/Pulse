@@ -348,15 +348,17 @@ article .testimo {
 }
 
 /* footer */
-footer{
+footer {
     background-color: var(--blackish);
 }
-footer #legal{
+
+footer #legal {
     color: #bababe;
     font-size: 12px;
     width: 52em;
     padding: 1em 5em;
 }
+
 .footer-wrapper {
     display: flex;
     justify-content: space-between;
@@ -369,7 +371,8 @@ footer #legal{
     flex-direction: column;
     gap: 2em;
 }
-.brand img{
+
+.brand img {
     max-width: 10em;
 }
 
@@ -405,7 +408,7 @@ footer #legal{
     font-weight: bold;
 }
 
-.footer-links ul li:nth-child(1){
+.footer-links ul li:nth-child(1) {
     color: var(--whitish);
     font-weight: bold;
 }

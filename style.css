@@ -14,6 +14,7 @@
 }
 main{
     background-color: #eafaf1;
+    height: 82em; 
 }
 main header{
     display: flex;
@@ -30,6 +31,15 @@ header ul li{
 }
 header ul li a{
     text-decoration: none;
+    color: var(--dark-green);
+    font-weight: bold;
+}
+header ul > li:nth-child(3) a{
+    color: #000;
+}
+header ul > li:nth-last-child(1) a{
+    color: var(--dark-green);
+    
 }
 /* SECTION QUOTE */
 .quote{
@@ -226,5 +236,26 @@ article .cards-container{
     text-align: justify;
     display: flex;
     gap: 10px;
-
+}
+/* testimo */
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+article .testimo{
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.testimo q{
+    font-size: 1.5rem;
+    width: 34em;
+    text-align: center;
+}
+.testimo p{
+    color: #1fe374;
+    padding-top: 10px;
+    font-weight: bold;
 }

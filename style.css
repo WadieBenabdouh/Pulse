@@ -66,6 +66,7 @@ article .cards-container{
 .card-one{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .card-one .container{
     display: flex;
@@ -79,7 +80,6 @@ article .cards-container{
     padding: 5px 0;
     margin-left: 15px;
 }
-/* card 3 */
 
 /* card 2 */
 .card-two .banner{
@@ -161,4 +161,69 @@ article .cards-container{
 }
 .fa-check{
     color: var(--bright-green);
+}
+/* card 3 */
+.card-three{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 32em;
+    outline: red solid 2px;
+    margin-top: 5em;
+}
+.card-three .desc{
+    background-color: var(--gray);
+    border: 1px solid #bababe;
+    padding: 20px;
+}
+.desc p{
+    font-size: 15px;
+    text-align: center;
+}
+.card-three .wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em 0;
+}
+.wrapper h3{
+    font-size: 2em;
+    font-weight: lighter;
+    color: var(--dark-green);
+}
+.wrapper > :nth-child(2){
+    color: gray;
+    font-size: 20px;
+}
+.wrapper a {
+    text-decoration: none;
+    color: var(--blackish);
+    font-weight: bold;
+    background-color: var(--bright-green);
+    padding: 15px 30px;
+    border-radius: 10px;
+    transition: padding 0.1s;
+    margin-top: 10px;
+}
+.wrapper .perk-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20em;
+    margin-top: 2em;
+}
+.perk-list p{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.perk-list ul{
+    list-style-type: none;
+}
+.perk-list ul li {
+    padding: 10px 0;
+    /* margin-left: -30px; */
+    text-align: justify;
+    display: flex;
+    gap: 10px;
+
 }

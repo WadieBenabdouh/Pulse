@@ -108,6 +108,7 @@ article .cards-container {
     flex-direction: column;
     width: 17em;
 }
+
 .container>* {
     padding: 10px 0;
 }
@@ -493,7 +494,8 @@ footer #legal {
     .card-three {
         margin: 0;
     }
-    .card-one h3{
+
+    .card-one h3 {
         text-align: center;
     }
 
@@ -534,19 +536,18 @@ footer #legal {
     }
 
     /* footer */
-    .footer-wrapper{
+    .footer-wrapper {
         flex-direction: column;
     }
 
-    .footer-links{
+    .footer-links {
         grid-template-columns: 1fr;
         width: fit-content;
     }
-    .brand a{
+
+    .brand a {
         width: 10em;
         padding: 8px;
         text-align: center;
     }
-
-
 }

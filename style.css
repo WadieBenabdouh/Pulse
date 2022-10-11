@@ -183,6 +183,7 @@ article .cards-container {
     flex-direction: column;
     padding: 0 20px;
     align-items: center;
+    outline: red solid 2px;
 }
 
 .perk-wrapper #benefit {
@@ -418,6 +419,12 @@ footer #legal {
 
 @media (max-width: 768px){
     /* header */
+    main {
+        background-color: #eafaf1;
+        height: fit-content;
+        padding: 20px 0;
+    }
+    
     main header {
         display: flex;
         padding: 0;
@@ -459,14 +466,50 @@ footer #legal {
         gap: 2em;
     }
     .cards-container .card {
-        outline: #35ca17 solid 2px;
+        /* outline: #35ca17 solid 2px; */
         width: 20em;
     }
+    /* card 2 */
+    .perk-wrapper .perks ul {
+        width: 20em;
+        padding: 0 15px;
+        flex-direction: column;
+        /* card sizing */
+    }
+    .perk-wrapper .perks ul li {
+        margin: 0;
+    }
+
+
+    
+    /* card three */
     .card-three{
         margin: 0;
     }
     .wrapper h3{
         font-size: 1.7em;
+    }
+    /* testimo */
+    article .testimo{
+        width: 30em;
+        margin-top: 2em;
+    }
+    .testimo q {
+        font-size: 1.5rem;
+        width: 15em;
+    }
+    /* FAQ */
+    .faq-container {
+        display: flex;
+        flex-direction: column;
+        padding: 5em;
+        gap: 1.5em;
+        align-items: center;
+    }
+    .questions {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2em;
     }
 
 

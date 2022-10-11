@@ -222,6 +222,7 @@ article .cards-container {
     align-items: center;
     height: 32em;
     /* outline: red solid 2px; */
+    border: 1px solid #bababe;
     background-color: #fff;
     margin-top: 5em;
 }
@@ -411,4 +412,62 @@ footer #legal {
 .footer-links ul li:nth-child(1) {
     color: var(--whitish);
     font-weight: bold;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 768px){
+    /* header */
+    main header {
+        display: flex;
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+    }
+    header nav ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5em;
+    }
+    /* section quote */
+    .quote {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 4em;
+        margin-top: 3em;
+    }
+    .quote h2 {
+        font-size: 2rem;
+        text-align: center;
+        width: 9em;
+    }
+    .quote p {
+        width: 20em;
+        line-height: 2em;
+        text-align: center;
+    }
+    /* Cards container */
+    article .cards-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: fit-content;
+        gap: 2em;
+    }
+    .cards-container .card {
+        outline: #35ca17 solid 2px;
+        width: 20em;
+    }
+    .card-three{
+        margin: 0;
+    }
+    .wrapper h3{
+        font-size: 1.7em;
+    }
+
+
 }

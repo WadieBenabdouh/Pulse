@@ -183,7 +183,7 @@ article .cards-container {
     flex-direction: column;
     padding: 0 20px;
     align-items: center;
-    outline: red solid 2px;
+    /* outline: red solid 2px; */
 }
 
 .perk-wrapper #benefit {
@@ -222,7 +222,7 @@ article .cards-container {
     flex-direction: column;
     align-items: center;
     height: 32em;
-    /* outline: red solid 2px; */
+    outline: red solid 2px;
     border: 1px solid #bababe;
     background-color: #fff;
     margin-top: 5em;
@@ -417,14 +417,16 @@ footer #legal {
 
 /* MEDIA QUERIES */
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
+
     /* header */
     main {
         background-color: #eafaf1;
         height: fit-content;
         padding: 20px 0;
+        outline: #1222b3 solid 2px;
     }
-    
+
     main header {
         display: flex;
         padding: 0;
@@ -432,12 +434,14 @@ footer #legal {
         align-items: center;
         gap: 1em;
     }
-    header nav ul{
+
+    header nav ul {
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 1.5em;
     }
+
     /* section quote */
     .quote {
         display: flex;
@@ -447,16 +451,19 @@ footer #legal {
         margin-bottom: 4em;
         margin-top: 3em;
     }
+
     .quote h2 {
         font-size: 2rem;
         text-align: center;
         width: 9em;
     }
+
     .quote p {
         width: 20em;
         line-height: 2em;
         text-align: center;
     }
+
     /* Cards container */
     article .cards-container {
         display: flex;
@@ -465,10 +472,12 @@ footer #legal {
         height: fit-content;
         gap: 2em;
     }
+
     .cards-container .card {
         /* outline: #35ca17 solid 2px; */
         width: 20em;
     }
+
     /* card 2 */
     .perk-wrapper .perks ul {
         width: 20em;
@@ -476,28 +485,37 @@ footer #legal {
         flex-direction: column;
         /* card sizing */
     }
+
     .perk-wrapper .perks ul li {
         margin: 0;
     }
 
-
-    
     /* card three */
-    .card-three{
+    .card-three {
         margin: 0;
     }
-    .wrapper h3{
+
+    .wrapper h3 {
         font-size: 1.7em;
     }
-    /* testimo */
-    article .testimo{
-        width: 30em;
-        margin-top: 2em;
+
+    .wrapper .perk-list {
+        width: 20em;
+        padding: 0 15px;
     }
+
+    /* testimo */
+    article .testimo {
+        width: 23em;
+        margin-top: 2em;
+        outline: red solid 2px;
+    }
+
     .testimo q {
         font-size: 1.5rem;
         width: 15em;
     }
+
     /* FAQ */
     .faq-container {
         display: flex;
@@ -506,10 +524,24 @@ footer #legal {
         gap: 1.5em;
         align-items: center;
     }
+
     .questions {
         display: grid;
         grid-template-columns: 1fr;
         gap: 2em;
+    }
+
+    /* footer */
+TODO    footer{
+        overflow: hidden;
+    }
+    .footer-wrapper{
+        flex-direction: column;
+    }
+
+    .footer-links{
+        grid-template-columns: 1fr;
+        width: fit-content;
     }
 
 

@@ -475,13 +475,17 @@ footer #legal {
 
     .cards-container .card {
         /* outline: #35ca17 solid 2px; */
-        width: 20em;
+        width: 18em;
+        height: fit-content;
     }
 
     /* card 2 */
+    .perks{
+        width: fit-content;
+    }
     .perk-wrapper .perks ul {
-        width: 20em;
-        padding: 0 15px;
+        width: 17em;
+        padding: 0 20px;
         flex-direction: column;
         /* card sizing */
     }
@@ -500,12 +504,12 @@ footer #legal {
     }
 
     .wrapper h3 {
-        font-size: 1.7em;
+        font-size: 1.5em;
     }
 
     .wrapper .perk-list {
-        width: 20em;
-        padding: 0 15px;
+        width: 17em;
+        padding: 0 20px;
     }
 
     /* testimo */

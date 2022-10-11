@@ -222,7 +222,7 @@ article .cards-container {
     flex-direction: column;
     align-items: center;
     height: 32em;
-    outline: red solid 2px;
+    /* outline: red solid 2px; */
     border: 1px solid #bababe;
     background-color: #fff;
     margin-top: 5em;
@@ -424,7 +424,7 @@ footer #legal {
         background-color: #eafaf1;
         height: fit-content;
         padding: 20px 0;
-        outline: #1222b3 solid 2px;
+        /* outline: #1222b3 solid 2px; */
     }
 
     main header {
@@ -512,7 +512,7 @@ footer #legal {
     article .testimo {
         width: 20em;
         margin-top: 2em;
-        outline: red solid 2px;
+        /* outline: red solid 2px; */
     }
 
     .testimo q {
